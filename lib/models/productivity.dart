@@ -1,9 +1,11 @@
+import 'package:flutter/material.dart';
+
 enum Categ { work, entertainment, routine }
 
 class Productivity {
   String taskName;
-  DateTime startTime;
-  DateTime endTime;
+  TimeOfDay startTime;
+  TimeOfDay endTime;
   int duration;
   Categ type;
 

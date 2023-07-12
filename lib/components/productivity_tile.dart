@@ -4,8 +4,8 @@ import 'package:productivityapp/models/productivity.dart';
 class ProductivityTile extends StatelessWidget {
   final String taskName;
   final int duration;
-  final DateTime startTime;
-  final DateTime endTime;
+  final TimeOfDay startTime;
+  final TimeOfDay endTime;
   final Categ type;
   ProductivityTile(
       {required this.taskName,
